@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Distance Converter</title>
+  <link rel="stylesheet" type="text/css" href="crt.css">
+</head>
+  
+<body>
+  <div class="container">
+    <h1>Distance Converter</h1>
+    <div class="Km_Miles">
+      <h2>KM to Miles Converter</h2>
+      
+      <input type="number" id="km" placeholder="Enter distance in kilometers">
+      <button class="btn_km" onclick="convertToMiles()">Convert to Miles</button>
+      <p id="result-miles">Miles will be shown here</p>
+    </div>
+    <div class="Mile_Km">
+      <h2>Miles to KM Converter</h2>  
+      <input type="number" id="miles" placeholder="Enter distance in miles">
+      <button class="btn_mile" onclick="convertToKilometers()">Convert to Kilometers</button>
+      <p id="result-km">Kilometers will be shown here</p>
+    </div>
+  </div>
+  <script src="crt.js"></script>
+</body>
+</html>
